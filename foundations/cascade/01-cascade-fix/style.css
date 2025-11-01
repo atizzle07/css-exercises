@@ -1,35 +1,31 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-}
+} /* ok*/
 
-.para,
-.small-para {
+.para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
-}
+  font-size: 22px;
+} /*ok*/
 
 .small-para {
   font-size: 14px;
   font-weight: 800;
-}
+}/*ok*/
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
-} 
+} /*ok*/
 
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
-}
+}/*ok*/
 
-.child {
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
