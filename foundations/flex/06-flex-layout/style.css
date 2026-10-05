@@ -5,6 +5,55 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header .left-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.header .right-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.content {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: #eeeeee;
+  background-color: rgb(247, 247, 247);
+  padding: 20px;
+}
+
+.footer .left-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.footer .right-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 
 img {
@@ -14,8 +63,14 @@ img {
 button {
   font-family: Roboto, sans-serif;
   border: none;
+  padding: 8px 20px;
   border-radius: 8px;
   background: #eee;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
 }
 
 input {
@@ -23,4 +78,16 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(156, 156, 156);
+  font-weight: 600;
 }
